@@ -2,6 +2,8 @@ const form = document.getElementById('form');
 const campos = document.querySelectorAll('.inputUser');
 const spans = document.querySelectorAll('.requerimento-span');
 const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+const ver = document.getElementById("senha");
+const olhar = document.getElementById("confirm-senha");
 
 function setError(index) {
     campos[index].style.border = "2px solid #BB0A21";
@@ -43,5 +45,21 @@ function refazerSenha() {
         removerErro(3);
     } else {
         setError(3);
+    }
+}
+
+function verSenha() {
+    if (ver.type === "password") {
+        ver.type = "text";
+    } else {
+        ver.type = "password";
+    }
+}
+
+function olharSenha() {
+    if (olhar.type === "password") {
+        olhar.type = "text";
+    } else {
+        olhar.type = "password";
     }
 }
