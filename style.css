@@ -48,7 +48,7 @@ input {
     border: 1px solid #a8a2ab;
     padding: 5px;
     margin-top: 19px;
-    background-color: #ffe6f1;
+    background-color: rgba(255, 230, 241, 0.334);
     outline: none;
     min-width: 240px;
 }
