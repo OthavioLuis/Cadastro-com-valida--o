@@ -89,3 +89,17 @@ p {
     font-size: 25px;
     cursor: pointer;
 }
+
+.caixa-senha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fa-eye {
+    width: 17px;
+    color: #1A1423;
+    margin-bottom: -20px;
+    margin-left: -26px;
+    cursor: pointer;
+}
