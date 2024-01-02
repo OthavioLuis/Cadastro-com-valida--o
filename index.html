@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Cadastre-se | Home</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
         <div>
             <form id="form" action="#">
                 <fieldset>
-                    <legend>Cadastre-se</legend>
+                    <legend><b>Cadastre-se</b></legend>
                     <div>
                         <input class="inputUser" placeholder="Nome" type="text" name="nome" id="nome" oninput="validarNome()">
                         <span class="requerimento-span">Seu nome deve ter no mínimo 3 caracteres</span>
@@ -30,6 +31,11 @@
                         <span class="requerimento-span">Repita corretamente a senha</span>
                     </div>
                     <input type="submit" name="submit" id="submit">
+                    <p>ou</p>
+                    <div class="caixa-logo">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-google-plus"></i>
+                    </div>
                 </fieldset>
             </form>
         </div>
