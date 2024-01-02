@@ -23,11 +23,17 @@
                         <span class="requerimento-span">Digite um email válido</span>
                     </div>
                     <div>
-                        <input class="inputUser" placeholder="Senha" type="password" name="senha" id="senha" oninput="validarSenha()">
+                        <div class="caixa-senha">
+                            <input class="inputUser" placeholder="Senha" type="password" name="senha" id="senha" oninput="validarSenha()">
+                            <i onclick="verSenha()" id="fa-eye" class="fa-solid fa-eye"></i>
+                        </div>
                         <span class="requerimento-span">Mínimo 5 caracteres</span>
                     </div>
                     <div>
-                        <input class="inputUser" placeholder="Repita a Senha" type="password" name="confirm-senha" id="-confirm-senha" oninput="refazerSenha()">
+                        <div class="caixa-senha">
+                            <input class="inputUser" placeholder="Repita a Senha" type="password" name="confirm-senha" id="confirm-senha" oninput="refazerSenha()">
+                            <i onclick="olharSenha()" id="fa-eye"  class="fa-solid fa-eye"></i>
+                        </div>
                         <span class="requerimento-span">Repita corretamente a senha</span>
                     </div>
                     <input type="submit" name="submit" id="submit">
