@@ -29,10 +29,10 @@ form div {
 legend {
     padding: 10px;
     font-size: 19px;
-    background-color: #E5D4ED;
+    background-color: #b19dba;
     border-radius: 5px;
-    border: 1px solid ;
-    color: black;
+    border: 1px solid #b19dba;
+    color: #1A1423;
 }
 
 fieldset {
@@ -69,4 +69,22 @@ span {
     background-color: #1A1423;
     color: white;
     transition: 0.2s;
+}
+
+p {
+    color: #3D314A;
+    margin: 7px 0px 10px 0px;
+    font-size: 12px;
+}
+
+.caixa-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.caixa-logo i {
+    margin: 0px 10px;
+    color: #3D314A;
+    font-size: 25px;
 }
