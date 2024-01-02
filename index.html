@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <title>Cadastre-se | Home</title>
+</head>
+<body>
+    <div class="caixa-pai">
+        <div>
+            <form id="form" action="#">
+                <fieldset>
+                    <legend>Cadastre-se</legend>
+                    <div>
+                        <input class="inputUser" placeholder="Nome" type="text" name="nome" id="nome" oninput="validarNome()">
+                        <span class="requerimento-span">Seu nome deve ter no mínimo 3 caracteres</span>
+                    </div>
+                    <div>
+                        <input class="inputUser" placeholder="E-mail" type="email" name="email" id="email" oninput="validarEmail()">
+                        <span class="requerimento-span">Digite um email válido</span>
+                    </div>
+                    <div>
+                        <input class="inputUser" placeholder="Senha" type="password" name="senha" id="senha" oninput="validarSenha()">
+                        <span class="requerimento-span">Mínimo 5 caracteres</span>
+                    </div>
+                    <div>
+                        <input class="inputUser" placeholder="Repita a Senha" type="password" name="confirm-senha" id="-confirm-senha" oninput="refazerSenha()">
+                        <span class="requerimento-span">Repita corretamente a senha</span>
+                    </div>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <script src="validacao.js"></script>
+</body>
+</html>
