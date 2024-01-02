@@ -60,15 +60,15 @@ span {
 }
 
 #submit {
-    border: 1px solid #735e67;
-    background-color: #b19dba;
-    color: black;
+    background-color: #1A1423;
+    color: white
 }
 
 #submit:hover {
-    background-color: #1A1423;
-    color: white;
     transition: 0.2s;
+    border: 1px solid #735e67;
+    background-color: #b19dba;
+    color: black;
 }
 
 p {
